@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+// import LifeCyclesCDU from './components/LifeCyclesCDU';
 // import RenderingLists from './components/RenderingLists';
 // import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
 // import StatefulGreeting from './components/StatefulGreeting';
@@ -12,7 +13,7 @@ import './App.css';
 // import ConditionalRenderingFunction from './components/ConditionalRenderingFunction';
 // import NestingComponents from './components/NestingComponents';
 // import MethodsAsPropsParent from './components/MethodsAsPropsParent';
-import LifeCyclesCDM from './components/LifeCyclesCDM';
+// import LifeCyclesCDM from './components/LifeCyclesCDM';
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <NestingComponents/> */}
       {/* <MethodsAsPropsParent /> */}
       {/* <RenderingLists/> */}
-      <LifeCyclesCDM/>
+      {/* <LifeCyclesCDM/> */}
+      {/* <LifeCyclesCDU/> */}
     </div>
   );
 }
