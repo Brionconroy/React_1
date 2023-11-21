@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-import RenderingLists from './components/RenderingLists';
+// import RenderingLists from './components/RenderingLists';
 // import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
 // import StatefulGreeting from './components/StatefulGreeting';
 // import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback';
@@ -12,6 +12,7 @@ import RenderingLists from './components/RenderingLists';
 // import ConditionalRenderingFunction from './components/ConditionalRenderingFunction';
 // import NestingComponents from './components/NestingComponents';
 // import MethodsAsPropsParent from './components/MethodsAsPropsParent';
+import LifeCyclesCDM from './components/LifeCyclesCDM';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       {/* <ConditionalRenderingFunction connected={true} /> */}
       {/* <NestingComponents/> */}
       {/* <MethodsAsPropsParent /> */}
-      <RenderingLists/>
+      {/* <RenderingLists/> */}
+      <LifeCyclesCDM/>
     </div>
   );
 }
