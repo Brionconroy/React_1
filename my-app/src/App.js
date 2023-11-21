@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import LifeCyclesCWU from './components/LifeCyclesCWU';
+import ControlledForm from './components/ControlledForm';
+// import LifeCyclesCWU from './components/LifeCyclesCWU';
 // import LifeCyclesCDU from './components/LifeCyclesCDU';
 // import RenderingLists from './components/RenderingLists';
 // import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
@@ -33,7 +34,8 @@ function App() {
       {/* <RenderingLists/> */}
       {/* <LifeCyclesCDM/> */}
       {/* <LifeCyclesCDU/> */}
-      <LifeCyclesCWU/>
+      {/* <LifeCyclesCWU/> */}
+      <ControlledForm/>
     </div>
   );
 }
