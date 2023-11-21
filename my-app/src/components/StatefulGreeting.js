@@ -1,30 +1,30 @@
-// import React from "react";
+import React from "react";
 
-// class StatefulGreeting extends React.Component {
+class StatefulGreeting extends React.Component {
 
-//     constructor(props) {
-//         super(props);
-//         this.state= {
-//             introduction: "Hello",
-//             buttonText: "Exit",
-//         };
-//     }
+    constructor(props) {
+        super(props);
+        this.state= {
+            introduction: "Hello",
+            buttonText: "Exit",
+        };
+    }
 
-//     handleClick() {
-//         this.setState({
-//             introduction: "Gluck",
-//         })
-//         console.log(this.state.introduction);
-//     }
+    handleClick() {
+        this.setState({
+            introduction: "Gluck",
+        })
+        console.log(this.state.introduction);
+    }
 
-//     render() {
-//         return (
-//             <div>
-//                 <h1>{this.state.introduction} {this.props.greeting} {this.props.name} </h1>
-//                 <button onClick={() => this.handleClick()}>{this.state.buttonText}</button>
-//             </div>
-//         )
-//     }
-// }
+    render() {
+        return (
+            <div>
+                <h1>{this.state.introduction} {this.props.greeting} {this.props.name} </h1>
+                <button onClick={() => this.handleClick()}>{this.state.buttonText}</button>
+            </div>
+        )
+    }
+}
 
-// export default StatefulGreeting;
+export default StatefulGreeting;
