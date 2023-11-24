@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
-import ControlledForm from './components/ControlledForm';
+import SearchBar from './components/SearchBar';
+// import UncontrolledForm from './components/UncontrolledForm';
+// import ControlledForm from './components/ControlledForm';
 // import LifeCyclesCWU from './components/LifeCyclesCWU';
 // import LifeCyclesCDU from './components/LifeCyclesCDU';
 // import RenderingLists from './components/RenderingLists';
@@ -35,7 +37,9 @@ function App() {
       {/* <LifeCyclesCDM/> */}
       {/* <LifeCyclesCDU/> */}
       {/* <LifeCyclesCWU/> */}
-      <ControlledForm/>
+      {/* <ControlledForm/> */}
+      {/* <UncontrolledForm/> */}
+      <SearchBar/>
     </div>
   );
 }
