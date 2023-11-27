@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 
 export class ControlledForm extends Component {
     constructor(props) {

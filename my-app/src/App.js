@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import SearchBar from './components/SearchBar';
+import ControlledFormHooks from './components/ControlledFormHooks';
+// import SearchBar from './components/SearchBar';
 // import UncontrolledForm from './components/UncontrolledForm';
 // import ControlledForm from './components/ControlledForm';
 // import LifeCyclesCWU from './components/LifeCyclesCWU';
@@ -39,7 +40,8 @@ function App() {
       {/* <LifeCyclesCWU/> */}
       {/* <ControlledForm/> */}
       {/* <UncontrolledForm/> */}
-      <SearchBar/>
+      {/* <SearchBar/> */}
+      <ControlledFormHooks/>
     </div>
   );
 }
