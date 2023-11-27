@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import UseStateWithObjects from './components/UseStateWithObjects';
+import UseEffectCounter from './components/UseEffectCounter';
+// import UseStateWithObjects from './components/UseStateWithObjects';
 // import UseStateWithArrays from './components/UseStateWithArrays';
 // import ControlledFormHooks from './components/ControlledFormHooks';
 // import SearchBar from './components/SearchBar';
@@ -45,7 +46,8 @@ function App() {
       {/* <SearchBar/> */}
       {/* <ControlledFormHooks/> */}
       {/* <UseStateWithArrays/> */}
-      <UseStateWithObjects/>
+      {/* <UseStateWithObjects/> */}
+      <UseEffectCounter/>
     </div>
   );
 }
