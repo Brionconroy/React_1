@@ -1,6 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
-import UseEffectCounter from './components/UseEffectCounter';
+import HTTPHooks from './components/HTTPHooks';
+// import HTTPPost from './components/HTTPPost';
+// import HTTPRequests from './components/HTTPRequests';
+// import UseEffectCounter from './components/UseEffectCounter';
+// import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 // import UseStateWithObjects from './components/UseStateWithObjects';
 // import UseStateWithArrays from './components/UseStateWithArrays';
 // import ControlledFormHooks from './components/ControlledFormHooks';
@@ -47,7 +51,10 @@ function App() {
       {/* <ControlledFormHooks/> */}
       {/* <UseStateWithArrays/> */}
       {/* <UseStateWithObjects/> */}
-      <UseEffectCounter/>
+      {/* <UseEffectCounterContainer/> */}
+      {/* <HTTPRequests/> */}
+      {/* <HTTPPost/> */}
+      <HTTPHooks/>
     </div>
   );
 }
